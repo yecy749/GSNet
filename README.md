@@ -32,13 +32,9 @@ by Chengyang Ye, Yunzhi Zhuge, [Pingping Zhang](https://scholar.google.com/citat
 ## Prepare datasets
 ### Training Dataset: LD50K
 - Download LandDiscover50K from this [hugginface repo](https://huggingface.co/datasets/Stev929/LandDiscover50K)
-- Merge the downloaded parts into a complete zip file:
+- Extract the complete zip file
     ```bash
-    cat LD50KSplit.z* > LandDiscover50K.zip
-    ```
-- Extract the complete zip file to a specified directory:
-    ```bash
-    unzip LandDiscover50K.zip -d ./dst_dir
+    7z x LD50KSplit.zip
     ```
 ### Testing Datasets: FloodNet, FLAIR, FAST, Potsdam
 - We provide pre-processed test images and masks for users' convenience. Download them from [here](https://huggingface.co/datasets/Stev929/OVRSISS_test/tree/main).
