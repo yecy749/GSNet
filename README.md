@@ -103,7 +103,7 @@ If you find **GSNet** helpful in your research, please consider citing:
 ```bibtex
 @inproceedings{ye2025GSNet,
   title={Towards Open-Vocabulary Remote Sensing Image Semantic Segmentation},
-  author={Ye, Chengyang and Zhuge, Yunzhi and Zhang, Pingping}
+  author={Ye, Chengyang and Zhuge, Yunzhi and Zhang, Pingping},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2025}
 }
